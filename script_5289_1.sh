@@ -1,3 +1,3 @@
 #!/bin/bash
 
-touch ${0}
+touch ${0}.txt
