@@ -2,7 +2,5 @@
 
 ## installation
 
-cd / 
-wget https://github.com/nicolapi/techzone_updates/raw/main/techzone-updates.tgz 
-tar -xzpvf techzone-updates.tgz
-systemctl enable techzone-updates
+curl -s -L https://github.com/nicolapi/techzone_updates/raw/main/techzone-updates.tgz | tar xzpv -C /  
+systemctl enable techzone-updates  
